@@ -4,7 +4,7 @@
 
 char cleartext[10];
 int ciphertext[10];
-int secret;
+int secret=0;
 
 int caesar(int secret){
     
@@ -30,7 +30,7 @@ int caesar(int secret){
 
 int main(){
     printf("«Î ‰»Î√‹‘ø:");
-    secret=scanf("%d",&secret);
+    scanf("%d",&secret);
     caesar(secret);
     //printf("%s",cleartext);
     //printf("%s",ciphertext);
