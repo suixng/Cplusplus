@@ -35,8 +35,8 @@ char* changeWordFormation();    //更改单词的输出形式函数
 
 int main()
 {
-    freopen("input.txt","r",stdin);    // 从input.txt获取输入
-    freopen("output.txt","w",stdout);  // 输出到output.txt里
+    freopen("F:/study/programing/C++/compile/input.txt","r",stdin);    // 从input.txt获取输入
+    freopen("F:/study/programing/C++/compile/output.txt","w",stdout);  // 输出到output.txt里
 
 	int over = 1;                            // 判断是否出现#
 	inputBufferIndex = 0;                    // 初始化输入缓冲区下标
