@@ -10,7 +10,7 @@ int main(){
             b[i]=a[i];
             c[i]=b[i];
         }
-        printf("%d",b[i]);
+        printf("%d+aaa. .",b[i]);
         printf("%c",c[i]);
     }
 

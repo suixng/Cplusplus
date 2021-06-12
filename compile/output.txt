@@ -13,7 +13,7 @@ int main(){
             b[i]=a[i];
             c[i]=b[i];
         }
-        printf("%d",b[i]);
+        printf("%d+aaa. .",b[i]);
         printf("%c",c[i]);
     }
 
@@ -122,6 +122,10 @@ The result of lexical analyzer:
 (66,")
 (25,%)
 (13,'d')
+(21,+)
+(13,'aaa')
+(53,.)
+(53,.)
 (66,")
 (63,,)
 (13,'b')
